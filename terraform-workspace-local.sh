@@ -47,7 +47,7 @@ fi
 echo "==========================================="
 echo "Workspace: $workspacename"
 echo "==========================================="
-api_token=""
+api_token="BInj4OzvEga2KA.atlasv1.DJpScvf0nLCZSSkthp0QWsERKWDM0JAF3XIYKp5L8rSCNrSCIp0vX3KAbtGXASVkEB4"
 os="$(uname -s)"
 case "$os" in
     Linux*)     api_token=$(cat $AGENT_HOMEDIRECTORY/.terraformrc | grep 'token' | sed 's/^.*token\s*=\s*//' | sed 's/"//g');;
